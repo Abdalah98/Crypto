@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22B4B7F295306970075037D /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B4B7E295306970075037D /* CoinModel.swift */; };
+		B22B4B832953187C0075037D /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B4B822953187C0075037D /* PreviewProvider.swift */; };
+		B22B4B8529531AB60075037D /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B4B8429531AB60075037D /* CoinRowView.swift */; };
+		B22B4B8729531CE70075037D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B4B8629531CE70075037D /* Double.swift */; };
 		B29740FB2952EE7B0010C8D1 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29740FA2952EE7B0010C8D1 /* CryptoApp.swift */; };
 		B29740FD2952EE7B0010C8D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29740FC2952EE7B0010C8D1 /* ContentView.swift */; };
 		B29741022952EE7D0010C8D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29741012952EE7D0010C8D1 /* Preview Assets.xcassets */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22B4B7E295306970075037D /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		B22B4B822953187C0075037D /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		B22B4B8429531AB60075037D /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		B22B4B8629531CE70075037D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		B29740F72952EE7B0010C8D1 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29740FA2952EE7B0010C8D1 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		B29740FC2952EE7B0010C8D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22B4B7D2953066F0075037D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B22B4B7E295306970075037D /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B29740EE2952EE7B0010C8D1 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +79,7 @@
 				B29740FC2952EE7B0010C8D1 /* ContentView.swift */,
 				B29741082952EF9C0010C8D1 /* Assets.xcassets */,
 				B297410A2952EFB30010C8D1 /* Extension */,
+				B22B4B7D2953066F0075037D /* Model */,
 				B297410D2952F35C0010C8D1 /* Core */,
 				B29741002952EE7D0010C8D1 /* Preview Content */,
 			);
@@ -81,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B297410B2952EFD30010C8D1 /* Color.swift */,
+				B22B4B8629531CE70075037D /* Double.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -107,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				B29741112952F3880010C8D1 /* HomeView.swift */,
+				B22B4B822953187C0075037D /* PreviewProvider.swift */,
+				B22B4B8429531AB60075037D /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,12 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22B4B8529531AB60075037D /* CoinRowView.swift in Sources */,
 				B29740FD2952EE7B0010C8D1 /* ContentView.swift in Sources */,
 				B29741122952F3880010C8D1 /* HomeView.swift in Sources */,
 				B29740FB2952EE7B0010C8D1 /* CryptoApp.swift in Sources */,
 				B29741162952F5220010C8D1 /* CircleButtonView.swift in Sources */,
 				B297410C2952EFD30010C8D1 /* Color.swift in Sources */,
 				B29741182952F90D0010C8D1 /* CircleButtonAnimationView.swift in Sources */,
+				B22B4B832953187C0075037D /* PreviewProvider.swift in Sources */,
+				B22B4B8729531CE70075037D /* Double.swift in Sources */,
+				B22B4B7F295306970075037D /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
