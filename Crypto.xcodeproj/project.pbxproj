@@ -12,6 +12,8 @@
 		B22B4B8529531AB60075037D /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B4B8429531AB60075037D /* CoinRowView.swift */; };
 		B22B4B8729531CE70075037D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B4B8629531CE70075037D /* Double.swift */; };
 		B24334B02954334600D5D117 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24334AF2954334600D5D117 /* HomeViewModel.swift */; };
+		B24334B3295473C800D5D117 /* CoinDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24334B2295473C800D5D117 /* CoinDataServices.swift */; };
+		B24334B62954810100D5D117 /* NetworkingManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24334B52954810100D5D117 /* NetworkingManger.swift */; };
 		B29740FB2952EE7B0010C8D1 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29740FA2952EE7B0010C8D1 /* CryptoApp.swift */; };
 		B29740FD2952EE7B0010C8D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29740FC2952EE7B0010C8D1 /* ContentView.swift */; };
 		B29741022952EE7D0010C8D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29741012952EE7D0010C8D1 /* Preview Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		B22B4B8429531AB60075037D /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		B22B4B8629531CE70075037D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		B24334AF2954334600D5D117 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B24334B2295473C800D5D117 /* CoinDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataServices.swift; sourceTree = "<group>"; };
+		B24334B52954810100D5D117 /* NetworkingManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManger.swift; sourceTree = "<group>"; };
 		B29740F72952EE7B0010C8D1 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29740FA2952EE7B0010C8D1 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		B29740FC2952EE7B0010C8D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B24334B12954739500D5D117 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B24334B2295473C800D5D117 /* CoinDataServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B24334B4295480DB00D5D117 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B24334B52954810100D5D117 /* NetworkingManger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B29740EE2952EE7B0010C8D1 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +97,10 @@
 		B29740F92952EE7B0010C8D1 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				B29740FA2952EE7B0010C8D1 /* CryptoApp.swift */,
+				B24334B4295480DB00D5D117 /* Utilities */,
+				B24334B12954739500D5D117 /* Services */,
 				B29740FC2952EE7B0010C8D1 /* ContentView.swift */,
+				B29740FA2952EE7B0010C8D1 /* CryptoApp.swift */,
 				B29741082952EF9C0010C8D1 /* Assets.xcassets */,
 				B297410A2952EFB30010C8D1 /* Extension */,
 				B22B4B7D2953066F0075037D /* Model */,
@@ -232,8 +254,10 @@
 				B24334B02954334600D5D117 /* HomeViewModel.swift in Sources */,
 				B29740FD2952EE7B0010C8D1 /* ContentView.swift in Sources */,
 				B29741122952F3880010C8D1 /* HomeView.swift in Sources */,
+				B24334B3295473C800D5D117 /* CoinDataServices.swift in Sources */,
 				B29740FB2952EE7B0010C8D1 /* CryptoApp.swift in Sources */,
 				B29741162952F5220010C8D1 /* CircleButtonView.swift in Sources */,
+				B24334B62954810100D5D117 /* NetworkingManger.swift in Sources */,
 				B297410C2952EFD30010C8D1 /* Color.swift in Sources */,
 				B29741182952F90D0010C8D1 /* CircleButtonAnimationView.swift in Sources */,
 				B22B4B832953187C0075037D /* PreviewProvider.swift in Sources */,
