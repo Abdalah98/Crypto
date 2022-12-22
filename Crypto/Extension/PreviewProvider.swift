@@ -18,7 +18,7 @@ class DeveloperProvider{
   static let instance = DeveloperProvider()
   private init() {}
   
-  
+  var homevm :HomeViewModel = HomeViewModel()
     let coin = CoinModel(
        id: "bitcoin",
        symbol: "btc",
