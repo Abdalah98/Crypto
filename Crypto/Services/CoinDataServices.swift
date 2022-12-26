@@ -26,6 +26,7 @@ class CoinDataServices{
       .sink(receiveCompletion: NetworkingManger.handleCompletion,
             receiveValue: {[weak self] returnCoins in
         self?.allCoins = returnCoins
+        self?.coinSubscription?.cancel()
       })
     
   }
